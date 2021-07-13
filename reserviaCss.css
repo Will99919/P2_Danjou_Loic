@@ -1,6 +1,6 @@
 @font-face{
 	font-family: "Raleway";
-    src: url("./fonts/static/Raleway-Medium.ttf") format("ttf");
+    src: url("./fonts/static/Raleway-Medium.ttf") format("truetype");
 }
 
 body
@@ -31,13 +31,14 @@ nav li
     justify-content: space-around;
     width: 30%;
     list-style: none;
+    border-top: 2px dodgerblue;
+
 
 }
 
 nav li a 
 {
-    color: #0065FC; 
-    text-decoration: none;
+    color: #0065FC;
 }
 
 .liens
