@@ -30,25 +30,29 @@ nav li
     display: flex;
     justify-content: space-around;
     width: 30%;
-    list-style: none;
     border-top: 2px dodgerblue;
-
-
 }
 
 nav li a 
 {
     color: #0065FC;
+    text-decoration: none;
 }
 
 .liens
 {
     text-align: right;
+    list-style: none;
 }
 
 .hebergements
 {
     width: 10%;
+}
+
+section h3
+{
+    display: flex;
 }
 
 .populaires
@@ -61,6 +65,28 @@ nav li a
     width: 15%;
 }
 
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: #F2F2F2;
+    color: black;
+    height: 170px;
+}
+
+footer ul a 
+{
+    color: black;
+    text-decoration: none;
+}
+
+footer ul li
+{
+    color: black;
+    list-style: none;
+    padding-bottom: 11px;
+}
 
 
 
