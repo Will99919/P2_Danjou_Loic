@@ -31,12 +31,15 @@ nav li
     justify-content: space-around;
     width: 30%;
     border-top: 2px dodgerblue;
+    font-size: small;
+
 }
 
 nav li a 
 {
     color: #0065FC;
     text-decoration: none;
+
 }
 
 .liens
@@ -48,21 +51,29 @@ nav li a
 .hebergements
 {
     width: 10%;
+
 }
 
-section h3
+div section h3
 {
     display: flex;
+    width: 10px;
 }
 
 .populaires
 {
-    width: 10%;
+    display: flex;
+    width: 40%;
+    background-color: #F2F2F2;
+    padding-bottom: 20px;
+    flex-direction: column;
+    margin-top: 20px;
 }
 
 .activites
 {
     width: 15%;
+    margin-bottom: 10px;
 }
 
 footer
@@ -79,14 +90,71 @@ footer ul a
 {
     color: black;
     text-decoration: none;
+    font-size: 10px;
 }
-
+footer ul
+{
+    padding-right: 20px;
+    padding-top: 0px;
+    font-size: small;
+}
 footer ul li
 {
     color: black;
     list-style: none;
     padding-bottom: 11px;
+
 }
+
+.gris
+{
+    color: #000 !important;
+}
+
+.gras
+{
+    font-weight: bold;
+}
+
+.bleu
+{
+    border-top: 2px solid dodgerblue ;
+}
+
+div .fond_gris
+{
+    background-color: #F2F2F2;
+    border-radius: 12px;
+}
+
+div .fondgris
+{
+    background-color: #F2F2F2;
+    border-radius: 12px;
+}
+
+.hebergements
+{
+padding-left: -20px;
+}
+
+h1
+{
+    display: flex;
+    font-size: 20px;
+}
+
+h2
+{
+    display: flex;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+
+
+
 
 
 
