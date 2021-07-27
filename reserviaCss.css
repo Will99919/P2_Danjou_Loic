@@ -57,7 +57,11 @@ nav li a
 div section h3
 {
     display: flex;
-    width: 10px;
+    width: 242px;
+    padding-right: 120px;
+    padding-left: 44px;
+    justify-content: flex-end;
+
 }
 
 .populaires
@@ -68,12 +72,14 @@ div section h3
     padding-bottom: 20px;
     flex-direction: column;
     margin-top: 20px;
+    margin-left: 100px;
 }
 
 .activites
 {
     width: 15%;
     margin-bottom: 10px;
+
 }
 
 footer
@@ -118,24 +124,41 @@ footer ul li
 
 .bleu
 {
-    border-top: 2px solid dodgerblue ;
+    border-top: 3.1px solid dodgerblue ;
+    justify-content: flex-end;
+    padding-right: 16px;
+    padding-left: 16px;
+    display: flex;
+    margin-top: -20px;
+    padding-top: 19px;
 }
 
 div .fond_gris
 {
     background-color: #F2F2F2;
     border-radius: 12px;
+    border-radius: 25px;
 }
 
 div .fondgris
 {
     background-color: #F2F2F2;
-    border-radius: 12px;
+    border-radius: 25px;
+    margin-right: 219px;
+    padding: 25px;
+    padding-top: 25px;
+    padding-top: 0;
+    margin-bottom: 96px;
+    padding-left: 0px;
+
 }
 
 .hebergements
 {
-padding-left: -20px;
+    width: 25%;
+    margin-left: 45px;
+    margin-bottom: 26px;
+    margin-left: 40px;
 }
 
 h1
@@ -149,6 +172,75 @@ h2
     display: flex;
     font-size: 14px;
     font-weight: normal;
+}
+
+section h3
+{
+    margin-top: 13px;
+    margin-left: -45px;
+    font-size: 16px;
+}
+
+.afficher
+{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    padding-left: 44px;
+}
+
+header h4
+{
+    font-size: 14px;
+}
+
+button 
+{
+    display: flex;
+    color: white;
+    background-color: #0065FC;
+    height: 35px;
+    width: 90px;
+    justify-content: space-around;
+    padding-top: 8px;
+    font-family: Raleway;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+}
+
+input
+{
+    display: flex;
+    border: 1px #f2f2f2f2 solid;
+    width: 186px;
+}
+
+div .localisation
+{
+    display: flex;
+    background-color: #f2f2f2f2;
+    width: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas
+{
+    color: black;
+}
+
+header .info
+{
+    display: flex;
+    width: 17px;
+    height: 20px;
+    width: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 
 

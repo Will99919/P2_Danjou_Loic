@@ -5,13 +5,14 @@
         <link rel="stylesheet" href="./reserviaCss.css">
             <title>Reservia</title>
         <link rel="icon" type="image/png" href="logo/Reservia.png">
+        <script src="https://kit.fontawesome.com/6428482a87.js" crossorigin="anonymous"></script>
     </head>        
 
     <body>
         <header>
                 <nav>
                     <li>
-                        <a href="Liens header/Hébergement.html" class="liens bleu" >Hébergement</a>
+                        <a href="Liens header/Hébergement.html" class="liens bleu" >hébergements</a>
                         <a href="Liens header/Activités.html" class="liens gris" >Activités</a>
                         <a href="Liens header/S'inscrire.html" class="liens gras" >S'inscrire</a>
                     </li>
@@ -21,9 +22,15 @@
                 <h2>En plein cantre ville ou en pleine nature</h2>
                 
             <div class="recherche" style="display: flex;">
+                <button class="localisation"><i class="fas fa-map-marker-alt"></i></button>
                 <input type="search">
                 <button>Rechercher</button>
             </div>
+            <h4>Filtres</h4>
+            <div style="display: flex;" >
+                <img src="logo/icons8-info-160.png" class="info"/>
+                <h2>Plus de 500 logements sont disponibles dans cette ville</h2> 
+            </div> 
         </header>
 
     <div class="linehebergements" style="display: flex;">
@@ -32,20 +39,21 @@
             <h3>Hébergement à Marseille</h3>
             <img src="hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière" class="hebergements premier" />
             <img src="hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" class="hebergements premier" />
-            <img src="hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" class="hebergements premier" /> <br />
+            <img src="hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" class="hebergements premier" /> 
             <img src="hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" class="hebergements" />
             <img src="hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" class="hebergements" />
             <img src="hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" class="hebergements" />
-            <aside><a href="Liens header/afficher plus.html">Afficher plus</a></aside>
+            <aside><a href="Liens header/afficher plus.html" class="afficher" >Afficher plus</a></aside>
         </section>
         </div>
 
             <div class="fond_gris" style="display: flex;" >
             <section>
-                <h3>Les plus populaires</h3>
+                <h3>Les plus populaires <i class="fas fa-chart-line"></i> </h3> 
                 <img src="hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin" class="populaires"/>
                 <img src="hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes" class="populaires" />
                 <img src="hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc" class="populaires" />
+                
             </section>
             </div>
     </div>
