@@ -208,6 +208,7 @@ button
     border-bottom-right-radius: 10px;
     border-top-left-radius: 0px;
     border-top-right-radius: 10px;
+    border: 1px;
 }
 
 input
