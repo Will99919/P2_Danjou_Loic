@@ -137,13 +137,13 @@ div .fond_gris
 {
     background-color: #F2F2F2;
     border-radius: 12px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 div .fondgris
 {
     background-color: #F2F2F2;
-    border-radius: 25px;
+    border-radius: 15px;
     margin-right: 219px;
     padding: 25px;
     padding-top: 25px;
@@ -192,6 +192,7 @@ section h3
 header h4
 {
     font-size: 14px;
+    margin-top: 23px;
 }
 
 button 
@@ -216,6 +217,10 @@ input
     display: flex;
     border: 1px #f2f2f2f2 solid;
     width: 186px;
+    font-weight: bold;
+    padding-left: 15px;
+    color: black;
+
 }
 
 div .localisation
@@ -242,6 +247,43 @@ header .info
     width: 20px;
     padding-top: 10px;
     padding-right: 10px;
+}
+
+div .filtres
+{
+    display: flex;
+    border-radius: 20px;
+    margin: 9px;
+        margin-top: 9px;
+        margin-left: 9px;
+    margin-top: 9px;
+    margin-left: 9px;
+    margin-left: 18px;
+    height: 30px;
+    margin-top: 16px;
+    background-color: white;
+    border: 3px #f2f2f2f2 solid;
+    color: black;
+    padding-top: 7px;
+    width: 130px;
+    padding-left: 27px;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+div .money
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -139px;
+    margin-top: 16px;
+    font-size: 13px;
+    background-color: #deebff;
+    border-radius: 20px;
+    width: 30px;
+    height: 22px;
+    padding-top: 8px;
+    color: #0065FC;
 }
 
 
