@@ -57,9 +57,8 @@ nav li a
 div section h3
 {
     display: flex;
-    width: 242px;
+    width: 235px;
     padding-right: 120px;
-    padding-left: 44px;
     justify-content: flex-end;
 
 }
@@ -67,12 +66,22 @@ div section h3
 .populaires
 {
     display: flex;
-    width: 40%;
+    width: 37%;
     background-color: #F2F2F2;
     padding-bottom: 20px;
     flex-direction: column;
-    margin-top: 20px;
-    margin-left: 100px;
+    margin-top: 26px;
+    margin-left: 29px;
+    overflow: hidden;
+    padding: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-bottom: 2px;
+    padding-right: 129px;
+    background-color: white;
+    box-shadow: 3px 3px 16px gray;
+    border-radius: 25px;
+    height: 100px;
 }
 
 .activites
@@ -144,21 +153,26 @@ div .fondgris
 {
     background-color: #F2F2F2;
     border-radius: 15px;
-    margin-right: 219px;
     padding: 25px;
     padding-top: 25px;
-    padding-top: 0;
-    margin-bottom: 96px;
-    padding-left: 0px;
-
+    padding-top: 25px;
+    margin-bottom: 280px;
+    width: 68%;
+    margin-right: 2%;
 }
 
 .hebergements
 {
-    width: 25%;
-    margin-left: 45px;
+    width: 27%;
+    height: 71px;
     margin-bottom: 26px;
     margin-left: 40px;
+    overflow: hidden;
+    padding: 2px;
+    padding-bottom: 70px;
+    background-color: white;
+    box-shadow: 3px 3px 16px gray;
+    border-radius: 25px;
 }
 
 h1
@@ -176,9 +190,10 @@ h2
 
 section h3
 {
-    margin-top: 13px;
-    margin-left: -45px;
+    margin-top: 0px;
     font-size: 16px;
+    margin-bottom: 15px;
+    margin: 0%;
 }
 
 .afficher
@@ -210,6 +225,7 @@ button
     border-top-left-radius: 0px;
     border-top-right-radius: 10px;
     border: 1px;
+    cursor: pointer;
 }
 
 input
@@ -249,42 +265,72 @@ header .info
     padding-right: 10px;
 }
 
-div .filtres
-{
-    display: flex;
-    border-radius: 20px;
-    margin: 9px;
-        margin-top: 9px;
-        margin-left: 9px;
-    margin-top: 9px;
-    margin-left: 9px;
-    margin-left: 18px;
-    height: 30px;
-    margin-top: 16px;
-    background-color: white;
-    border: 3px #f2f2f2f2 solid;
-    color: black;
-    padding-top: 7px;
-    width: 130px;
-    padding-left: 27px;
-    font-weight: bolder;
-    font-size: 12px;
-}
-
 div .money
 {
     display: flex;
-    justify-content: space-around;
-    margin-left: -139px;
-    margin-top: 16px;
-    font-size: 13px;
     background-color: #deebff;
     border-radius: 20px;
-    width: 30px;
-    height: 22px;
-    padding-top: 8px;
-    color: #0065FC;
+    width: 120px;
+    height: 30px;
+    color: #0065fc;
+    padding-left: 6px;
+    padding-bottom: 8px;
+    padding-right: 6px;
+    margin-top: 17px;
+    margin-left: 20px;
+    cursor: pointer;
 }
+
+div .famille
+{
+    display: flex;
+    background-color: #deebff;
+    border-radius: 20px;
+    width: 98px;
+    height: 30px;
+    color: #0065fc;
+    padding-left: 6px;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    margin-top: 17px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+div .coeur
+{
+    display: flex;
+    background-color: #deebff;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    color: #0065fc;
+    padding-left: 6px;
+    padding-bottom: 8px;
+    padding-right: 6px;
+    margin-top: 17px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+div .Animaux
+{
+    display: flex;
+    background-color: #deebff;
+    border-radius: 20px;
+    width: 170px;
+    height: 30px;
+    color: #0065fc;
+    padding-left: 6px;
+    padding-bottom: 8px;
+    padding-right: 6px;
+    margin-top: 17px;
+    margin-left: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
 
 
 
