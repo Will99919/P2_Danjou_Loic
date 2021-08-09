@@ -1,21 +1,8 @@
-@font-face{
+@font-face{ /*ajout de la police d'écriture*/
 	font-family: "Raleway";
     src: url("./fonts/static/Raleway-Medium.ttf") format("truetype");
 }
-
-body
-{
-    font-family: Raleway;
-    width: 1180px;
-    margin: 0 auto;
-}
-
-#logo
-{
-    width: 10%;
-}
-
-nav
+nav /*header*/
 {
     display: flex;
     justify-content: space-between;
@@ -24,8 +11,7 @@ nav
     padding-right: 10px;
     padding-left: 10px;
 }
-
-nav li 
+nav li /*liens en haut à droite*/
 {
     display: flex;
     justify-content: space-around;
@@ -34,26 +20,185 @@ nav li
     font-size: small;
 
 }
-
 nav li a 
 {
     color: #0065FC;
     text-decoration: none;
 
 }
-
 .liens
 {
     text-align: right;
     list-style: none;
 }
-
-.hebergements
+.gris
+{
+    color: #000 !important;
+}
+.gras
+{
+    font-weight: bold;
+}
+.bleu
+{
+    border-top: 3.1px solid dodgerblue ;
+    justify-content: flex-end;
+    padding-right: 16px;
+    padding-left: 16px;
+    display: flex;
+    margin-top: -20px;
+    padding-top: 19px;
+}
+#logo 
 {
     width: 10%;
+}
+h1
+{
+    display: flex;
+    font-size: 20px;
+}
+h2
+{
+    display: flex;
+    font-size: 14px;
+    font-weight: normal;
+}
+button /*barre de recherche*/
+{
+    display: flex;
+    color: white;
+    background-color: #0065FC;
+    height: 35px;
+    width: 90px;
+    justify-content: space-around;
+    padding-top: 8px;
+    font-family: Raleway;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border: 1px;
+    cursor: pointer;
+}
+input
+{
+    display: flex;
+    border: 1px #f2f2f2f2 solid;
+    width: 186px;
+    font-weight: bold;
+    padding-left: 15px;
+    color: black;
 
 }
+div .localisation
+{
+    display: flex;
+    background-color: #f2f2f2f2;
+    width: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+}
+.fa, .fab, .fad, .fal, .far, .fas
+{
+    color: black;
+}
+header h4
+{
+    font-size: 14px;
+    margin-top: 23px;
+}
+.money /*filtres de recherche*/
+{
+    display: flex;
+    background-color: #deebff;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    color: #0065fc;
+    padding-left: 6px;
+    padding-bottom: 8px;
+    padding-right: 6px;
+    margin-top: 17px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+div .famille
+{
+    display: flex;
+    background-color: #deebff;
+    border-radius: 20px;
+    width: 98px;
+    height: 30px;
+    color: #0065fc;
+    padding-left: 6px;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    margin-top: 17px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+div .coeur
+{
+    display: flex;
+    background-color: #deebff;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    color: #0065fc;
+    padding-left: 6px;
+    padding-bottom: 8px;
+    padding-right: 6px;
+    margin-top: 17px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+div .Animaux
+{
+    display: flex;
+    background-color: #deebff;
+    border-radius: 20px;
+    width: 170px;
+    height: 30px;
+    color: #0065fc;
+    padding-left: 6px;
+    padding-bottom: 8px;
+    padding-right: 6px;
+    margin-top: 17px;
+    margin-left: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+header .info
+{
+    display: flex;
+    width: 17px;
+    height: 20px;
+    width: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
 
+
+body /*body*/
+{
+    font-family: Raleway;
+    width: 1180px;
+    margin: 0 auto;
+}
+div .fondgris
+{
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 25px;
+    padding-top: 25px;
+    padding-top: 25px;
+    margin-bottom: 280px;
+    width: 68%;
+    margin-right: 2%;
+}
 div section h3
 {
     display: flex;
@@ -62,7 +207,32 @@ div section h3
     justify-content: flex-end;
 
 }
-
+.hebergements 
+{
+    width: 27%;
+    height: 71px;
+    margin-bottom: 26px;
+    margin-left: 40px;
+    overflow: hidden;
+    padding: 2px;
+    padding-bottom: 70px;
+    background-color: white;
+    box-shadow: 3px 3px 16px gray;
+    border-radius: 25px;
+}
+.afficher
+{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    padding-left: 44px;
+}
+div .fond_gris
+{
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    border-radius: 15px;
+}
 .populaires
 {
     display: flex;
@@ -83,7 +253,13 @@ div section h3
     border-radius: 25px;
     height: 100px;
 }
-
+section h3
+{
+    margin-top: 0px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin: 0%;
+}
 .activites
 {
     width: 15%;
@@ -91,7 +267,8 @@ div section h3
 
 }
 
-footer
+
+footer /*footer*/
 {
     display: flex;
     justify-content: space-between;
@@ -100,7 +277,6 @@ footer
     color: black;
     height: 170px;
 }
-
 footer ul a 
 {
     color: black;
@@ -121,214 +297,36 @@ footer ul li
 
 }
 
-.gris
-{
-    color: #000 !important;
-}
 
-.gras
-{
-    font-weight: bold;
-}
 
-.bleu
-{
-    border-top: 3.1px solid dodgerblue ;
-    justify-content: flex-end;
-    padding-right: 16px;
-    padding-left: 16px;
-    display: flex;
-    margin-top: -20px;
-    padding-top: 19px;
-}
 
-div .fond_gris
-{
-    background-color: #F2F2F2;
-    border-radius: 12px;
-    border-radius: 15px;
-}
 
-div .fondgris
-{
-    background-color: #F2F2F2;
-    border-radius: 15px;
-    padding: 25px;
-    padding-top: 25px;
-    padding-top: 25px;
-    margin-bottom: 280px;
-    width: 68%;
-    margin-right: 2%;
-}
 
-.hebergements
-{
-    width: 27%;
-    height: 71px;
-    margin-bottom: 26px;
-    margin-left: 40px;
-    overflow: hidden;
-    padding: 2px;
-    padding-bottom: 70px;
-    background-color: white;
-    box-shadow: 3px 3px 16px gray;
-    border-radius: 25px;
-}
 
-h1
-{
-    display: flex;
-    font-size: 20px;
-}
 
-h2
-{
-    display: flex;
-    font-size: 14px;
-    font-weight: normal;
-}
 
-section h3
-{
-    margin-top: 0px;
-    font-size: 16px;
-    margin-bottom: 15px;
-    margin: 0%;
-}
 
-.afficher
-{
-    display: flex;
-    color: black;
-    text-decoration: none;
-    padding-left: 44px;
-}
 
-header h4
-{
-    font-size: 14px;
-    margin-top: 23px;
-}
 
-button 
-{
-    display: flex;
-    color: white;
-    background-color: #0065FC;
-    height: 35px;
-    width: 90px;
-    justify-content: space-around;
-    padding-top: 8px;
-    font-family: Raleway;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 10px;
-    border: 1px;
-    cursor: pointer;
-}
 
-input
-{
-    display: flex;
-    border: 1px #f2f2f2f2 solid;
-    width: 186px;
-    font-weight: bold;
-    padding-left: 15px;
-    color: black;
 
-}
 
-div .localisation
-{
-    display: flex;
-    background-color: #f2f2f2f2;
-    width: 40px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 0px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 0px;
-}
 
-.fa, .fab, .fad, .fal, .far, .fas
-{
-    color: black;
-}
 
-header .info
-{
-    display: flex;
-    width: 17px;
-    height: 20px;
-    width: 20px;
-    padding-top: 10px;
-    padding-right: 10px;
-}
 
-div .money
-{
-    display: flex;
-    background-color: #deebff;
-    border-radius: 20px;
-    width: 120px;
-    height: 30px;
-    color: #0065fc;
-    padding-left: 6px;
-    padding-bottom: 8px;
-    padding-right: 6px;
-    margin-top: 17px;
-    margin-left: 20px;
-    cursor: pointer;
-}
 
-div .famille
-{
-    display: flex;
-    background-color: #deebff;
-    border-radius: 20px;
-    width: 98px;
-    height: 30px;
-    color: #0065fc;
-    padding-left: 6px;
-    padding-bottom: 8px;
-    padding-right: 5px;
-    margin-top: 17px;
-    margin-left: 20px;
-    cursor: pointer;
-}
 
-div .coeur
-{
-    display: flex;
-    background-color: #deebff;
-    border-radius: 20px;
-    width: 120px;
-    height: 30px;
-    color: #0065fc;
-    padding-left: 6px;
-    padding-bottom: 8px;
-    padding-right: 6px;
-    margin-top: 17px;
-    margin-left: 20px;
-    cursor: pointer;
-}
 
-div .Animaux
-{
-    display: flex;
-    background-color: #deebff;
-    border-radius: 20px;
-    width: 170px;
-    height: 30px;
-    color: #0065fc;
-    padding-left: 6px;
-    padding-bottom: 8px;
-    padding-right: 6px;
-    margin-top: 17px;
-    margin-left: 20px;
-    font-size: 14px;
-    cursor: pointer;
-}
+
+
+
+
+
+
+
+
+
+
 
 
 

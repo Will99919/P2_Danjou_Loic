@@ -10,62 +10,64 @@
 
     <body>
         <header>
-                <nav>
-                    <li>
-                        <a href="Liens header/Hébergement.html" class="liens bleu" >hébergements</a>
-                        <a href="Liens header/Activités.html" class="liens gris" >Activités</a>
-                        <a href="Liens header/S'inscrire.html" class="liens gras" >S'inscrire</a>
-                    </li>
-                </nav>
-                <img src="logo/Reservia.png" alt="logo du site" id="logo" />
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <h2>En plein cantre ville ou en pleine nature</h2>
+            <nav> <!--les liens en haut à droite de la page-->
+                <li>
+                    <a href="Liens header/Hébergement.html" class="liens bleu" >hébergements</a>
+                    <a href="Liens header/Activités.html" class="liens gris" >Activités</a>
+                    <a href="Liens header/S'inscrire.html" class="liens gras" >S'inscrire</a>
+                </li>
+            </nav>
                 
-            <div class="recherche" style="display: flex;">
+            <img src="logo/Reservia.png" alt="logo du site" id="logo" />
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <h2>En plein cantre ville ou en pleine nature</h2>
+                
+            <div class="recherche" style="display: flex;"> <!--barre de recherche-->
                 <button class="localisation"><i class="fas fa-map-marker-alt"></i></button>
                 <input type="search" placeholder="Marseille, France">
                 <button>Rechercher</button>
             </div>
-            <div style="display: flex;" class="filtre">
+
+            <div style="display: flex;" class="filtre"> <!--les filtres de recherches-->
                 <h4>Filtres</h4>
-                <button class="fas fa-money-bill-wave money" style="float: right;">Économique</button>
+                <button class="fas fa-money-bill-wave money" style="float: right;">Économique</button> 
                 <button class="fas fa-child famille" style="float: right;">Familial</button>
                 <button class="fas fa-heart coeur" style="float: right;">Romantique</button>
                 <button class="fas fa-dog Animaux" style="float: right;">Animaux autorisés</button>
             </div>
+
             <div style="display: flex;" >
                 <img src="logo/icons8-info-160.png" class="info"/>
                 <h2>Plus de 500 logements sont disponibles dans cette ville</h2> 
             </div> 
         </header>
 
-    <div class="linehebergements" style="display: flex;">
-        <div class="fondgris">
-        <section>
-            <h3>Hébergement à Marseille</h3>
-            <img src="hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière" class="hebergements premier"/>
-            <img src="hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" class="hebergements premier" />
-            <img src="hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" class="hebergements premier" /> 
-            <img src="hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" class="hebergements premier" />
-            <img src="hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" class="hebergements premier" />
-            <img src="hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" class="hebergements premier" />
-            <aside><a href="Liens header/afficher plus.html" class="afficher" >Afficher plus</a></aside>
-        </section>
-        </div>
-
-            <div class="fond_gris" style="display: flex;" >
-            <section>
-                <h3>Les plus populaires <i class="fas fa-chart-line"></i> </h3> 
-                <img src="hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin" class="populaires"/>
-                <img src="hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes" class="populaires" />
-                <img src="hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc" class="populaires" />
-                
-            </section>
+        <div class="linehebergements" style="display: flex;"> <!--affichage des hébergements à Marseille-->
+            <div class="fondgris">
+                <section>
+                    <h3>Hébergement à Marseille</h3>
+                    <img src="hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière" class="hebergements premier"/>
+                    <img src="hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" class="hebergements premier" />
+                    <img src="hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" class="hebergements premier" /> 
+                    <img src="hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" class="hebergements premier" />
+                    <img src="hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" class="hebergements premier" />
+                    <img src="hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" class="hebergements premier" />
+                    <aside><a href="Liens header/afficher plus.html" class="afficher" >Afficher plus</a></aside>
+                </section>
             </div>
-    </div>
+
+            <div class="fond_gris" style="display: flex;" > <!--affichage des hôtels les plus populaires-->
+                <section>
+                    <h3>Les plus populaires <i class="fas fa-chart-line"></i> </h3> 
+                    <img src="hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin" class="populaires"/>
+                    <img src="hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes" class="populaires" />
+                    <img src="hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc" class="populaires" />
+                </section>
+            </div>
+        </div>
             
                 <section>
-                    <a><h3>Activités à Marseille</h3></a>
+                    <a><h3>Activités à Marseille</h3></a> <!--affichage des activités à Marseille-->
                     <img src="activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port" class="activites" />
                     <img src="activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" class="activites" />
                     <img src="activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="îles de Frioul" class="activites" />
