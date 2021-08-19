@@ -64,7 +64,7 @@ h2
     font-size: 14px;
     font-weight: normal;
 }
-button /*barre de recherche*/
+.bouton /*barre de recherche*/
 {
     display: flex;
     color: white;
@@ -100,76 +100,88 @@ div .localisation
     border-bottom-right-radius: 0px;
     border-top-left-radius: 10px;
     border-top-right-radius: 0px;
+    border: 1px;
 }
-.fa, .fab, .fad, .fal, .far, .fas
+.local
 {
+    padding-left: 11px;
+    padding-top: 9px;
     color: black;
+    cursor: pointer;
 }
 header h4
 {
     font-size: 14px;
     margin-top: 23px;
 }
-.money /*filtres de recherche*/
+div .money /*filtres de recherche*/
 {
     display: flex;
-    background-color: #deebff;
+    background-color: #ffffff;
     border-radius: 20px;
+    border: 2px #f2f2f2f2 solid;
     width: 120px;
     height: 30px;
     color: #0065fc;
-    padding-left: 6px;
-    padding-bottom: 8px;
     padding-right: 6px;
+    padding-top: 6px;
     margin-top: 17px;
     margin-left: 20px;
     cursor: pointer;
+    justify-content: space-around;
+}
+.div .background
+{
+    background-color: gray;
 }
 div .famille
 {
     display: flex;
-    background-color: #deebff;
+    background-color: #ffffff;
     border-radius: 20px;
+    border: 2px #f2f2f2f2 solid;
     width: 98px;
     height: 30px;
     color: #0065fc;
-    padding-left: 6px;
-    padding-bottom: 8px;
-    padding-right: 5px;
+    padding-right: 6px;
+    padding-top: 6px;
     margin-top: 17px;
     margin-left: 20px;
     cursor: pointer;
+    justify-content: space-around;
 }
+
 div .coeur
 {
     display: flex;
-    background-color: #deebff;
+    background-color: #ffffff;
     border-radius: 20px;
+    border: 2px #f2f2f2f2 solid;
     width: 120px;
     height: 30px;
     color: #0065fc;
-    padding-left: 6px;
-    padding-bottom: 8px;
     padding-right: 6px;
+    padding-top: 6px;
     margin-top: 17px;
     margin-left: 20px;
     cursor: pointer;
+    justify-content: space-around;
 }
 div .Animaux
 {
     display: flex;
-    background-color: #deebff;
+    background-color: #ffffff;
     border-radius: 20px;
+    border: 2px #f2f2f2f2 solid;
     width: 170px;
     height: 30px;
     color: #0065fc;
-    padding-left: 6px;
-    padding-bottom: 8px;
     padding-right: 6px;
+    padding-top: 6px;
     margin-top: 17px;
     margin-left: 20px;
-    font-size: 14px;
     cursor: pointer;
+    justify-content: space-around;
 }
 header .info
 {
@@ -180,7 +192,6 @@ header .info
     padding-top: 10px;
     padding-right: 10px;
 }
-
 
 body /*body*/
 {
@@ -217,8 +228,15 @@ div section h3
     padding: 2px;
     padding-bottom: 70px;
     background-color: white;
-    box-shadow: 3px 3px 16px gray;
+    object-fit: cover;
+}
+.arrondi
+{
     border-radius: 25px;
+}
+.ombre
+{
+    box-shadow: 3px 3px 16px gray;
 }
 .afficher
 {
@@ -252,6 +270,11 @@ div .fond_gris
     box-shadow: 3px 3px 16px gray;
     border-radius: 25px;
     height: 100px;
+    object-fit: cover;
+}
+.pop
+{
+    margin-left: 12px;
 }
 section h3
 {
@@ -262,11 +285,20 @@ section h3
 }
 .activites
 {
+    display: flex;
     width: 15%;
     margin-bottom: 10px;
-
+    margin-left: 15px;
+    padding-bottom: 70px;
+    background-color: white;
+    box-shadow: 5px 10px 14px lightgray;
+    border-radius: 25px;
+    object-fit: cover;
 }
-
+.titre
+{
+    display: flex;
+}
 
 footer /*footer*/
 {

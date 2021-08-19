@@ -23,14 +23,14 @@
             <h2>En plein cantre ville ou en pleine nature</h2>
                 
             <div class="recherche" style="display: flex;"> <!--barre de recherche-->
-                <button class="localisation"><i class="fas fa-map-marker-alt"></i></button>
+                <button class="localisation"><i class="fas fa-map-marker-alt local"></i></button>
                 <input type="search" placeholder="Marseille, France">
-                <button>Rechercher</button>
+                <button class="bouton">Rechercher</button>
             </div>
 
             <div style="display: flex;" class="filtre"> <!--les filtres de recherches-->
                 <h4>Filtres</h4>
-                <button class="fas fa-money-bill-wave money" style="float: right;">Économique</button> 
+                <button class="fas fa-money-bill-wave money" style="float: right;">Économique</button>      
                 <button class="fas fa-child famille" style="float: right;">Familial</button>
                 <button class="fas fa-heart coeur" style="float: right;">Romantique</button>
                 <button class="fas fa-dog Animaux" style="float: right;">Animaux autorisés</button>
@@ -42,23 +42,102 @@
             </div> 
         </header>
 
-        <div class="linehebergements" style="display: flex;"> <!--affichage des hébergements à Marseille-->
+        <div style="display: flex;" class="linehebergements"> <!--affichage des hébergements à Marseille-->
             <div class="fondgris">
                 <section>
                     <h3>Hébergement à Marseille</h3>
-                    <img src="hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière" class="hebergements premier"/>
-                    <img src="hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" class="hebergements premier" />
-                    <img src="hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" class="hebergements premier" /> 
-                    <img src="hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" class="hebergements premier" />
-                    <img src="hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" class="hebergements premier" />
-                    <img src="hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" class="hebergements premier" />
+                    <div class="hebergements arrondi ombre">
+                        <img src="hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière" />
+                        <h3>Auberge la Cannebière</h3>
+                        <p>A partir de <b class="price">25€</b></p>
+                        <p class="Notation">
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="far fa-star" aria-hidden="true"></i>
+
+                        </p>
+                    </div>
+
+                    <div class="hebergements arrondi ombre">
+                        <img src="hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" />
+                        <h3>Hôtel du port</h3>
+                        <p>A partir de <b class="price">52€</b></p>
+                        <p class="Notation">
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="far fa-star" aria-hidden="true"></i>
+
+                        </p>
+                    </div>
+
+                    <div class="hebergements arrondi ombre">
+                        <img src="hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" /> 
+                        <h3>Hôtel les mouettes</h3>
+                        <p>A partir de <b class="price">76€</b></p>
+                        <p class="Notation">
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="far fa-star" aria-hidden="true"></i>
+
+                        </p>
+                    </div>
+
+                    <div class="hebergements arrondi ombre">
+                        <img src="hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" />
+                        <h3>Hôtel de la mer</h3>
+                        <p>A partir de <b class="price">46€</b></p>
+                        <p class="Notation">
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="far fa-star" aria-hidden="true"></i>
+
+                        </p>
+                    </div>
+
+                    <div class="hebergements arrondi ombre">
+                        <img src="hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" />
+                        <h3>Auberge le Panier</h3>
+                        <p>A partir de <b class="price">23€</b></p>
+                        <p class="Notation">
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="far fa-star" aria-hidden="true"></i>
+
+                        </p>
+                    </div>
+
+                    <div class="hebergements arrondi ombre">
+                        <img src="hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina"  />
+                        <h3>Hôtel chez Amina</h3>
+                        <p>A partir de <b class="price">96€</b></p>
+                        <p class="Notation">
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="far fa-star" aria-hidden="true"></i>
+
+                        </p>
+                    </div>
+
                     <aside><a href="Liens header/afficher plus.html" class="afficher" >Afficher plus</a></aside>
                 </section>
             </div>
 
             <div class="fond_gris" style="display: flex;" > <!--affichage des hôtels les plus populaires-->
                 <section>
-                    <h3>Les plus populaires <i class="fas fa-chart-line"></i> </h3> 
+                    <h3>Les plus populaires</h3>
+                    <i class="fas fa-chart-line pop"></i> 
                     <img src="hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin" class="populaires"/>
                     <img src="hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes" class="populaires" />
                     <img src="hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc" class="populaires" />
@@ -68,7 +147,7 @@
             
                 <section>
                     <a><h3>Activités à Marseille</h3></a> <!--affichage des activités à Marseille-->
-                    <img src="activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port" class="activites" />
+                    <img src="activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port" class="activites" /> 
                     <img src="activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" class="activites" />
                     <img src="activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="îles de Frioul" class="activites" />
                     <img src="activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques" class="activites" />
