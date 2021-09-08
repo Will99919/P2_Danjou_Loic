@@ -12,8 +12,8 @@
         <header>
             <nav> <!--les liens en haut à droite de la page-->
                 <li>
-                    <a href="Liens header/Hébergement.html" class="liens bleu" >hébergements</a>
-                    <a href="Liens header/Activités.html" class="liens gris" >Activités</a>
+                    <a href="#hebergements" class="liens bleu" >hébergements</a>
+                    <a href="#activites" class="liens gris" >Activités</a>
                     <a href="Liens header/S'inscrire.html" class="liens gras" >S'inscrire</a>
                 </li>
             </nav>
@@ -61,6 +61,7 @@
         <div style="display: flex;" class="linehebergements"> <!--affichage des hébergements à Marseille-->
             <div class="fondgris">
                 <h3>Hébergement à Marseille</h3>
+                <div id="hebergements">
                 <section>
                     <div class="hebergements arrondi ombre">
                         <img src="hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière" />
@@ -147,18 +148,20 @@
 
                         </p>
                     </div>
+                </div>
 
                     <aside><a href="Liens header/afficher plus.html" class="afficher" >Afficher plus</a></aside>
                 </section>
             </div>
 
-            <div class="fondpop" style="display: flex;" > <!--affichage des hôtels les plus populaires-->
+            <div class="fondpop"> <!--affichage des hôtels les plus populaires-->
                 <h3>Les plus populaires</h3>
                 <section>
-                    <i class="fas fa-chart-line pop"></i> 
+                                        <!-- <i class="fas fa-chart-line pop"></i> --> 
 
                     <div class="populaires arrondi ombre">
                         <img src="hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin"/>
+                        <div class="content">
                         <h3>Hôtel Le soleil du matin</h3>
                         <p>A partir de <b class="price">96€</b></p>
                         <p class="Notation">
@@ -169,9 +172,11 @@
                             <i class="fas fa-star" aria-hidden="true"></i>
 
                         </p>
+                        </div>
                     </div>
                     <div class="populaires arrondi ombre">
                         <img src="hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes"/>
+                        <div class="content">
                         <h3>Au coeur de l'eau Chambres d'hôtes</h3>
                         <p>A partir de <b class="price">96€</b></p>
                         <p class="Notation">
@@ -182,9 +187,11 @@
                             <i class="fas fa-star" aria-hidden="true"></i>
 
                         </p>
+                        </div>
                     </div>
                     <div class="populaires arrondi ombre">
                         <img src="hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"/>
+                        <div class="content">
                         <h3>Hôtel Tout bleu et Blanc</h3>
                         <p>A partir de <b class="price">96€</b></p>
                         <p class="Notation">
@@ -195,6 +202,7 @@
                             <i class="fas fa-star" aria-hidden="true"></i>
 
                         </p>
+                        </div>
                     </div>
 
                 </section>
@@ -202,39 +210,49 @@
         </div>
             <div style="display: flex;">
                 <h3>Activités à Marseille</h3> <!--affichage des activités à Marseille-->
-                <div class="fondact">
+                <div class="fondact">  <!--div fond-->
+                    <div id="activites">
                     <section>
-                        <div class="activites arrondi ombre">
-                            <img src="activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port"/>
-                            <h3>Vieux Port</h3>
-                        </div> 
+                        <div class="impair"> <!--1er case-->
+                            <div class="activites arrondi ombre">
+                                <img src="activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port"/>
+                                <h3>Vieux Port</h3>
+                            </div>
+                        </div>    
 
-                        <div class="activites arrondi ombre">
-                            <img src="activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues"/>
-                            <h3>Fort de Pomègues</h3>
+                        <div class="pair"> <!--2e case-->
+                            <div class="activites arrondi ombre">
+                                <img src="activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues"/>
+                                <h3>Fort de Pomègues</h3>
+                            </div>
+
+                            <div class="activites arrondi ombre">
+                                <img src="activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="îles de Frioul"/>
+                                <h3>îles de Frioul</h3>
+                            </div>
                         </div>
 
-                        <div class="activites arrondi ombre">
-                            <img src="activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="îles de Frioul"/>
-                            <h3>îles de Frioul</h3>
+                        <div class="impair"> <!--3e case-->
+                            <div class="activites arrondi ombre">
+                                <img src="activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques"/>
+                                <h3>Parc National des Calanques</h3>
+                            </div>
                         </div>
 
-                        <div class="activites arrondi ombre">
-                            <img src="activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques"/>
-                            <h3>Parc National des Calanques</h3>
-                        </div>
+                        <div class="pair"> <!--4e case-->
+                            <div class="activites arrondi ombre">
+                                <img src="activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-De-la-Garde"/>
+                                <h3>Notre-Dame-De-la-Garde</h3>
+                            </div>
 
-                        <div class="activites arrondi ombre">
-                            <img src="activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-De-la-Garde"/>
-                            <h3>Notre-Dame-De-la-Garde</h3>
-                        </div>
-
-                        <div class="activites arrondi ombre">
-                            <img src="activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp"/>
-                            <h3>Parc Longchamp</h3>
+                            <div class="activites arrondi ombre">
+                                <img src="activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp"/>
+                                <h3>Parc Longchamp</h3>
+                            </div>
                         </div>
 
                     </section>
+                </div>
                 </div>
             </div>
     </body>
