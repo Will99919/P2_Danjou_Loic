@@ -222,7 +222,7 @@ div section
 .hebergements 
 {
     width: 27%;
-    margin-bottom: 26px;
+    margin-bottom: 70px;
     overflow: hidden;
     background-color: white;
     object-fit: cover;
@@ -371,6 +371,7 @@ div .pair img
     overflow: hidden;
     background-color: white;
     object-fit: cover;
+    margin-right: 5%;
 
 }
 
@@ -398,6 +399,30 @@ div .pair img
     color: #0065FC;
 }
 
+.taille
+{
+    height: 100%;
+}
+
+.taille2
+{
+    height: 60%;
+}
+
+.taille3
+{
+height: 25% !important ; 
+}
+
+.taille4
+{
+    height: 55%;
+}
+
+.taille5
+{
+    height: 25%;
+}
 footer /*footer*/
 {
     display: flex;
