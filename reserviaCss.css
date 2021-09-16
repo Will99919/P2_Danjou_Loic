@@ -136,12 +136,11 @@ header h4
     width: 120px;
     height: 32px;
     color: #0065fc;
-    padding-right: 15px;
     margin-top: 17px;
     margin-left: 20px;
     cursor: pointer;
     justify-content: space-around;
-    padding-left: 45px;
+    padding-left: 40px;
 }
 .filtres .filtre p
 {
@@ -158,10 +157,8 @@ header h4
     border: white;
     background-color: #deebff;
     border-radius: 90px;
-    padding-top: 10px;
     width: 35px;
     height: 34px;
-    padding-left: 9px;
     color: #0065fc;
     cursor: pointer;
     margin: 0 auto;
@@ -343,14 +340,14 @@ div .fondact
 div .impair
 {
     display: flex;
-    width: 25%;
+    width: 24%;
     
 }
 
 div .pair
 {
     display: flex;
-    width: 25%;
+    width: 24%;
     flex-direction: column;
 }
 
@@ -411,12 +408,12 @@ div .pair img
 
 .taille3
 {
-height: 25% !important ; 
+height: 40%; 
 }
 
 .taille4
 {
-    height: 55%;
+    height: 25%;
 }
 
 .taille5
