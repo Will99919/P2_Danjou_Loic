@@ -140,7 +140,6 @@ header h4
     margin-left: 20px;
     cursor: pointer;
     justify-content: space-around;
-    padding-left: 40px;
 }
 .filtres .filtre p
 {
@@ -163,6 +162,27 @@ header h4
     cursor: pointer;
     margin: 0 auto;
     display: block;
+}
+
+.filtres .longeur
+{
+    padding-left: 23px;
+}
+
+.filtres .longeur2
+{
+    padding-left: 20px;
+}
+
+.filtres .longeur3
+{
+    padding-left: 25px;
+}
+
+.filtres .longeur4
+{
+    padding-left: 40px;
+    padding-right: 11px;
 }
 
 .div .background
