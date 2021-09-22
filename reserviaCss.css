@@ -2,6 +2,11 @@
 	font-family: "Raleway";
     src: url("./fonts/static/Raleway-Medium.ttf") format("truetype");
 }
+
+@media screen and (max-width: 1280px)
+{
+    
+}
 nav /*header*/
 {
     display: flex;
@@ -234,7 +239,7 @@ div section
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
-    height: 500px;
+    height: 455px;
 }
 .hebergements 
 {
@@ -298,6 +303,7 @@ div .fondpop
     width: 32%;
     margin-bottom: 20px;
     padding: 2%;
+    padding-top: 0%;
 }
 .populaires
 {
@@ -317,7 +323,7 @@ div .fondpop
     object-fit: cover;
     display: flex;
     flex-direction: row;
-    margin-top: 0px;
+    margin-top: 4px;
 } 
 .populaires .content
 {
@@ -374,11 +380,13 @@ div .pair
 div .impair img
 {
     width: 100%;
+    height: 88%;
 }
 
 div .pair img
 {
     width: 100%;
+    height: 76%;
     
 }
 .activites
@@ -397,15 +405,15 @@ div .pair img
     width: 100%;
     border-radius: 15px 15px 0 0 ;
     object-fit: cover;
-    height: 85%;
+    height: 90%;
 }
 
 .activites h3
 {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-left: 16px;
-    font-size: 12px;
+    font-size: 15px;
 }
 .titre
 {
@@ -418,27 +426,27 @@ div .pair img
 
 .taille
 {
-    height: 100%;
+    height: 50%;
 }
 
 .taille2
 {
-    height: 60%;
+    height: 24%;
 }
 
 .taille3
 {
-height: 40%; 
+height: 22%; 
 }
 
 .taille4
 {
-    height: 25%;
+    height: 20%;
 }
 
 .taille5
 {
-    height: 25%;
+    height: 27%;
 }
 footer /*footer*/
 {
