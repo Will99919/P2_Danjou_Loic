@@ -3,10 +3,6 @@
     src: url("./fonts/static/Raleway-Medium.ttf") format("truetype");
 }
 
-@media screen and (max-width: 1280px)
-{
-    
-}
 nav /*header*/
 {
     display: flex;
@@ -169,6 +165,16 @@ header h4
     display: block;
 }
 
+.filtres .filtre:hover
+{
+    background-color: #f2f2f2f2;
+}
+
+.filtres .filtre:hover .fas
+{
+    color: dodgerblue;
+}
+
 .filtres .longeur
 {
     padding-left: 23px;
@@ -240,6 +246,7 @@ div section
     justify-content: space-between;
     flex-direction: row;
     height: 455px;
+    padding-bottom: 4%;
 }
 .hebergements 
 {
@@ -360,13 +367,14 @@ section h3
 
 div .fondact
 {
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 div .impair
 {
     display: flex;
     width: 24%;
+    height: 100%;
     
 }
 
@@ -375,6 +383,8 @@ div .pair
     display: flex;
     width: 24%;
     flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
 }
 
 div .impair img
@@ -389,14 +399,17 @@ div .pair img
     height: 76%;
     
 }
+
+#activites
+{
+    width: 100%;
+}
 .activites
 {
     width: 100%;
-    margin-bottom: 26px;
     overflow: hidden;
     background-color: white;
     object-fit: cover;
-    margin-right: 5%;
 
 }
 
@@ -426,28 +439,29 @@ div .pair img
 
 .taille
 {
-    height: 50%;
+    height: 100%;
 }
 
 .taille2
 {
-    height: 24%;
+    height: 60%;
 }
 
 .taille3
 {
-height: 22%; 
+height: 35%; 
 }
 
 .taille4
 {
-    height: 20%;
+    height: 45%;
 }
 
 .taille5
 {
-    height: 27%;
+    height: 49%;
 }
+
 footer /*footer*/
 {
     display: flex;
@@ -457,18 +471,21 @@ footer /*footer*/
     color: black;
     height: 170px;
 }
+
 footer ul a 
 {
     color: black;
     text-decoration: none;
     font-size: 10px;
 }
+
 footer ul
 {
     padding-right: 20px;
     padding-top: 0px;
     font-size: small;
 }
+
 footer ul li
 {
     color: black;
@@ -477,6 +494,24 @@ footer ul li
 
 }
 
+@media screen and (max-width: 1024px)
+{
+    .filtres
+    {
+        width: auto;
+    }
+
+    .linehebergements
+    {
+        width: auto;
+        background-color: white;
+    }
+
+    .populaires
+    {
+        width: auto;
+    }
+}
 
 
 
