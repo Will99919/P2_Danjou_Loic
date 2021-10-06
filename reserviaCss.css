@@ -289,6 +289,7 @@ div section
     background-color: #F2F2F2;
     border-radius: 15px;
     width: 29%;
+    min-width: 150px;
 }
 .ombre
 {
@@ -494,23 +495,75 @@ footer ul li
 
 }
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1200px)
 {
     .filtres
     {
         width: auto;
     }
 
+    body 
+    {
+        width: 100%;
+    }
+
+    input
+    {
+        width: 60%;
+    }
+
+    .filtres
+    {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    #logo
+    {
+        width: 10%;
+        text-align: right;
+    }
+
+    nav li .gras
+    {
+        width: auto;
+        text-align: left;
+        padding-left: 4px;
+        font-size: 1.1em;
+    }
+
     .linehebergements
     {
         width: auto;
         background-color: white;
+        flex-direction: column-reverse;
     }
 
-    .populaires
+    section .populaires
     {
         width: auto;
     }
+
+    div .fondgris
+    {
+        background-color: white;
+        flex-direction: row ;
+    }
+
+    .div .fondpop
+    {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .populaires img 
+    {
+        float: right;
+
+    }
+
+    
+
 }
 
 
