@@ -3,6 +3,11 @@
     src: url("./fonts/static/Raleway-Medium.ttf") format("truetype");
 }
 
+.searchlogo
+{
+    display: none;
+}
+
 nav /*header*/
 {
     display: flex;
@@ -52,7 +57,7 @@ nav li a
 }
 #logo 
 {
-    width: 10%;
+    width: 100px;
 }
 h1
 {
@@ -215,7 +220,7 @@ header .info
 body /*body*/
 {
     font-family: Raleway;
-    width: 1180px;
+    width: 992px;
     margin: 0 auto;
 }
 div .fondgris
@@ -240,6 +245,16 @@ div section h2
 
 }
 div section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 455px;
+    padding-bottom: 4%;
+}
+
+div .act
 {
     display: flex;
     flex-wrap: wrap;
@@ -495,7 +510,8 @@ footer ul li
 
 }
 
-@media screen and (max-width: 1200px)
+
+@media screen and (max-width: 992px)
 {
     .filtres
     {
@@ -520,7 +536,7 @@ footer ul li
 
     #logo
     {
-        width: 10%;
+        width: 100px;
         text-align: right;
     }
 
@@ -536,24 +552,28 @@ footer ul li
     {
         width: auto;
         background-color: white;
-        flex-direction: column-reverse;
-    }
-
-    section .populaires
-    {
-        width: auto;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
     }
 
     div .fondgris
     {
         background-color: white;
         flex-direction: row ;
+        order: 1;
+        width: 100%;
     }
 
-    .div .fondpop
+    div .fondpop
     {
         flex-direction: column;
-        width: auto;
+        width: 100%;
+        order: 0;
+    }
+
+    div section
+    {
+        height: auto;
     }
 
     .populaires img 
@@ -562,8 +582,81 @@ footer ul li
 
     }
 
-    
+    input 
+    {
+        width: 186px;
+    }
+}
 
+@media screen and (max-width: 768px)
+{
+    .arrondi
+    {
+        width: 45%;
+    }
+    #logo
+    {
+        width: 100px;
+        text-align: right;
+    }
+
+    .searchlogo
+    {
+        display: block;
+    }
+
+    .searchtext
+    {
+        display: none;
+    }
+
+    .bouton
+    {
+        width: 40px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    input 
+    {
+        width: 186px;
+    }
+}
+
+@media screen and (max-width: 450px)
+{
+    .arrondi
+    {
+        width: 100%;
+    }
+    
+    #logo
+    {
+        width: 100px;
+        text-align: right;
+    }
+
+    .searchlogo
+    {
+        display: block;
+    }
+
+    .searchtext
+    {
+        display: none;
+    }
+
+    input 
+    {
+        width: 186px;
+    }
+    
+    footer
+    {
+        width: 100%;
+        flex-direction: column;
+        height: 100%;
+    }
 }
 
 
