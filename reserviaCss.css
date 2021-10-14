@@ -574,6 +574,12 @@ footer ul li
     div section
     {
         height: auto;
+        padding-bottom: 0%;
+    }
+
+    div .fondact
+    {
+        
     }
 
     .populaires img 
@@ -650,6 +656,11 @@ footer ul li
     {
         width: 186px;
     }
+
+    div .act
+    {
+        
+    }
     
     footer
     {
@@ -658,6 +669,7 @@ footer ul li
         height: 100%;
     }
 }
+
 
 
 
