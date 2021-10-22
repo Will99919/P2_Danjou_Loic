@@ -577,11 +577,6 @@ footer ul li
         padding-bottom: 0%;
     }
 
-    div .fondact
-    {
-        
-    }
-
     .populaires img 
     {
         float: right;
@@ -591,6 +586,67 @@ footer ul li
     input 
     {
         width: 186px;
+    }
+
+    div .impair
+    {
+       
+        min-width: 150px;
+        height: 200px;
+        width: 90%;
+    }
+
+    div .impair img
+    {
+        height: 75%;
+    }
+
+    div .pair
+    {
+       
+        min-width: 150px;
+        height: 340px;
+        width: 90%;
+    }
+
+    div .pair img
+    {
+        height: 75%;
+    }
+
+    .arrondi
+    {
+        width: 100%;
+    }
+
+    .taille
+    {
+        height: 90%;
+    }
+
+    .taille2
+    {
+        height: 90%;
+        margin-bottom: 6%;
+    }
+
+    .taille3
+    {
+        height: 138%;
+        margin-bottom: 20px;
+    }
+
+    .taille4
+    {
+        height: 55%;
+        margin-bottom: 6%;
+    }
+
+    div .act
+    {
+        justify-content: space-around;
+        height: 100%;
+        padding-bottom: 15%;
     }
 }
 
@@ -627,6 +683,67 @@ footer ul li
     {
         width: 186px;
     }
+
+    div .impair
+    {
+       
+        min-width: 150px;
+        height: 200px;
+        width: 90%;
+    }
+
+    div .impair img
+    {
+        height: 75%;
+    }
+
+    div .pair
+    {
+       
+        min-width: 150px;
+        height: 340px;
+        width: 90%;
+    }
+
+    div .pair img
+    {
+        height: 75%;
+    }
+
+    .arrondi
+    {
+        width: 100%;
+    }
+
+    .taille
+    {
+        height: 90%;
+    }
+
+    .taille2
+    {
+        height: 90%;
+        margin-bottom: 6%;
+    }
+
+    .taille3
+    {
+        height: 138%;
+        margin-bottom: 20px;
+    }
+
+    .taille4
+    {
+        height: 55%;
+        margin-bottom: 6%;
+    }
+
+    div .act
+    {
+        justify-content: space-around;
+        height: 100%;
+        padding-bottom: 15%;
+    }
 }
 
 @media screen and (max-width: 450px)
@@ -656,17 +773,73 @@ footer ul li
     {
         width: 186px;
     }
-
-    div .act
-    {
-        
-    }
     
     footer
     {
         width: 100%;
         flex-direction: column;
         height: 100%;
+    }
+
+    div .impair
+    {
+       
+        min-width: 150px;
+        height: 200px;
+        width: 90%;
+    }
+
+    div .impair img
+    {
+        height: 75%;
+    }
+
+    div .pair
+    {
+       
+        min-width: 150px;
+        height: 340px;
+        width: 90%;
+    }
+
+    div .pair img
+    {
+        height: 75%;
+    }
+
+    .arrondi
+    {
+        width: 100%;
+    }
+
+    .taille
+    {
+        height: 90%;
+    }
+
+    .taille2
+    {
+        height: 90%;
+        margin-bottom: 6%;
+    }
+
+    .taille3
+    {
+        height: 70%;
+        margin-bottom: 20px;
+    }
+
+    .taille4
+    {
+        height: 55%;
+        margin-bottom: 6%;
+    }
+
+    div .act
+    {
+        justify-content: space-around;
+        height: 100%;
+        padding-bottom: 15%;
     }
 }
 
