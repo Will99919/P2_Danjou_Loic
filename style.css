@@ -220,7 +220,8 @@ header .info
 body /*body*/
 {
     font-family: Raleway;
-    width: 992px;
+    width: 100%;
+    max-width: 1334px;
     margin: 0 auto;
 }
 div .fondgris
