@@ -272,6 +272,7 @@ div .act
     background-color: white;
     object-fit: cover;
     padding: 5px;
+    cursor: pointer;
 }
 .hebergements img
 {
@@ -334,9 +335,6 @@ div .fondpop
     width: 90%;
     background-color: #F2F2F2;
     padding-bottom: 20px;
-
-
-
     margin: 26px auto;
     overflow: hidden;
     padding: 5px;
@@ -348,6 +346,7 @@ div .fondpop
     display: flex;
     flex-direction: row;
     margin-top: 4px;
+    cursor: pointer;
 } 
 .populaires .content
 {
@@ -427,6 +426,7 @@ div .pair img
     overflow: hidden;
     background-color: white;
     object-fit: cover;
+    cursor: pointer;
 
 }
 
@@ -622,24 +622,24 @@ footer ul li
 
     .taille
     {
-        height: 90%;
+        height: 50%;
     }
 
     .taille2
     {
-        height: 90%;
+        height: 50%;
         margin-bottom: 6%;
     }
 
     .taille3
     {
-        height: 138%;
+        height: 50%;
         margin-bottom: 20px;
     }
 
     .taille4
     {
-        height: 55%;
+        height: 50%;
         margin-bottom: 6%;
     }
 
@@ -721,24 +721,6 @@ footer ul li
         height: 90%;
     }
 
-    .taille2
-    {
-        height: 90%;
-        margin-bottom: 6%;
-    }
-
-    .taille3
-    {
-        height: 138%;
-        margin-bottom: 20px;
-    }
-
-    .taille4
-    {
-        height: 55%;
-        margin-bottom: 6%;
-    }
-
     div .act
     {
         justify-content: space-around;
@@ -811,29 +793,6 @@ footer ul li
     .arrondi
     {
         width: 100%;
-    }
-
-    .taille
-    {
-        height: 90%;
-    }
-
-    .taille2
-    {
-        height: 90%;
-        margin-bottom: 6%;
-    }
-
-    .taille3
-    {
-        height: 70%;
-        margin-bottom: 20px;
-    }
-
-    .taille4
-    {
-        height: 55%;
-        margin-bottom: 6%;
     }
 
     div .act
