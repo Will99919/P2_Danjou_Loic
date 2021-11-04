@@ -1,6 +1,6 @@
 @font-face{ /*ajout de la police d'écriture*/
 	font-family: "Raleway";
-    src: url("./fonts/static/Raleway-Medium.ttf") format("truetype");
+    src: url("ressources/font/static/Raleway-Medium.ttf") format("truetype");
 }
 
 .searchlogo
@@ -55,28 +55,30 @@ nav li a
     margin-top: -20px;
     padding-top: 19px;
 }
+
 #logo 
 {
-    width: 100px;
+    width: 96px;
 }
 h1
 {
     display: flex;
     font-size: 20px;
+    width: 575px;
 }
 h2
 {
     display: flex;
     font-size: 14px;
     font-weight: normal;
+    width: 366px;
 }
 .bouton /*barre de recherche*/
 {
     display: flex;
     color: white;
     background-color: #0065FC;
-    height: 35px;
-    width: 90px;
+    width: 116px;
     justify-content: space-around;
     padding-top: 8px;
     font-family: Raleway;
@@ -91,7 +93,8 @@ input
 {
     display: flex;
     border: 1px #f2f2f2f2 solid;
-    width: 186px;
+    width: 234px;
+    height: 49px;
     font-weight: bold;
     padding-left: 15px;
     color: black;
@@ -101,7 +104,8 @@ div .localisation
 {
     display: flex;
     background-color: #f2f2f2f2;
-    width: 40px;
+    width: 52px;
+    height: 49px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 0px;
     border-top-left-radius: 10px;
@@ -114,6 +118,8 @@ div .localisation
     padding-top: 9px;
     color: black;
     cursor: pointer;
+    width: 13px;
+    height: 18px;
 }
 header h4
 {
