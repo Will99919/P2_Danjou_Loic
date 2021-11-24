@@ -12,10 +12,7 @@ nav /*header*/
 {
     display: flex;
     justify-content: space-between;
-    justify-content: flex-end;
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
+    width: 100%;
 }
 nav li /*liens en haut à droite*/
 {
@@ -40,25 +37,28 @@ nav li a
 .gris
 {
     color: #000 !important;
+    padding-top: 20px;
 }
 .gras
 {
     font-weight: bold;
+    padding-top: 20px;
 }
 .bleu
 {
-    border-top: 3.1px solid dodgerblue ;
+    border-top: 2px solid dodgerblue ;
     justify-content: flex-end;
     padding-right: 16px;
     padding-left: 16px;
     display: flex;
-    margin-top: -20px;
-    padding-top: 19px;
+    padding-top: 20px;
 }
 
 #logo 
 {
-    width: 96px;
+    width: 7%;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 h1
 {
@@ -146,34 +146,25 @@ header h4
     background-color: #ffffff;
     border-radius: 20px;
     border: 2px #D9D9D9 solid;
-    width: 120px;
     height: 32px;
+    width: 25%;
     color: #0065fc;
     margin-top: 17px;
     margin-left: 20px;
     cursor: pointer;
-    justify-content: space-around;
 }
 .filtres .filtre p
 {
     display: flex;
-    margin-top: 9px;
-    font-size: 12px;
     color: black;
     font-weight: bold;
+    width: 100%;
 }
 
 .filtres .filtre .fas
 {
     display: flex;
-    border: white;
-    background-color: #deebff;
-    border-radius: 16px;
-    width: 32px;
-    height: 32px;
-    color: #0065fc;
     cursor: pointer;
-    margin: 0 auto;
     display: block;
 }
 
@@ -187,35 +178,12 @@ header h4
     color: dodgerblue;
 }
 
-.filtres .longeur
-{
-    padding-left: 23px;
-    width: 108px;
-}
-
 .filtres .cercle
 {
-    width: 32px;
-    height: 32px;
-    border-radius: 16px;
-}
-
-.filtres .longeur2
-{
-    padding-left: 33px;
-    width: 75px;
-}
-
-.filtres .longeur3
-{
-    padding-left: 25px;
-    width: 106px;
-}
-
-.filtres .longeur4
-{
-    padding-left: 28px;
-    width: 136px;
+    background-color: #DEEBFF;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
 }
 
 .div .background
@@ -581,9 +549,7 @@ footer ul li
         width: 100px;
         text-align: right;
     }
-
     
-
     nav li .gras
     {
         width: auto;
