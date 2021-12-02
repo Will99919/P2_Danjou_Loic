@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="./style.css">
@@ -10,14 +10,13 @@
 
     <body>
         <header> 
-            <title>Reservia</title>
             <nav>
                 <img src="ressources/images/logo/Reservia.png" alt="logo du site" id="logo" />      <!--les liens en haut à droite de la page-->
-                <li>
-                    <a href="#hebergements" class="liens bleu" >hébergements</a>
-                    <a href="#activites" class="liens gris" >Activités</a>
-                    <a href="Liens header/S'inscrire.html" class="liens gras" >S'inscrire</a>
-                </li>
+                <ul>
+                    <li><a href="#hebergements" class="liens bleu" >hébergements</a></li>
+                    <li><a href="#activites" class="liens gris" >Activités</a></li>
+                    <li><a href="#s'inscrire" class="liens gras" >S'inscrire</a></li>
+                </ul>
             </nav>
                 
 
@@ -75,7 +74,7 @@
             </div>
 
             <div style="display: flex;" >
-                <img src="ressources/images/logo/icons8-info-160.png" class="info"/>
+                <img src="ressources/images/logo/icons8-info-160.png" class="info" alt="info"/>
                 <h2>Plus de 500 logements sont disponibles dans cette ville</h2> 
             </div> 
         </header>
@@ -173,11 +172,12 @@
                     </div>
                 </div>
 
-                    <aside><a href="Liens header/afficher plus.html" class="afficher" >Afficher plus</a></aside>
+                    <aside><a href="#afficherplus" class="afficher" >Afficher plus</a></aside>
                 </section>
             </div>
 
-            <div class="fondpop" href="#populaires"> <!--affichage des hôtels les plus populaires-->
+            <div class="fondpop"> 
+                <a href="#populaires"></a>  <!--affichage des hôtels les plus populaires-->
                 <h3 class="titrepop">Les plus populaires</h3>
                 <section>                            <!-- <i class="fas fa-chart-line pop"></i> --> 
                     <div class="populaires arrondi ombre" >
@@ -229,11 +229,13 @@
                 </section>
             </div>
         </div>
+        
             <div >
                 <h3>Activités à Marseille</h3> <!--affichage des activités à Marseille-->
                 <div class="fondact" style="display: flex;">  <!--div fond-->
                     <div id="activites">
-                    <section class="act"  href="#activites">
+                    <section class="act">  
+                        <a href="#activites"></a>
                         <div class="impair"> <!--1er case-->
                             <div class="activites arrondi ombre taille ">
                                 <img src="ressources/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port"/>
@@ -278,23 +280,32 @@
     </body>
 
     <footer>
+       
+
             <ul>
-                 <h4>A propos</h4>
-                <li><a class="tailletexte" href="./Liens header/a propos.html">Fonctionnement du site </a></li>
-                <li><a class="tailletexte" href="./Liens header/a propos.html">Condition générales de vente </a></li>
-                <li><a class="tailletexte" href="./Liens header/a propos.html">Données et confidentialité</a></li>
+                <h4>A propos</h4>
+                <li><a class="tailletexte" href="#">Fonctionnement du site </a></li>
+                <li><a class="tailletexte" href="#">Condition générales de vente </a></li>
+                <li><a class="tailletexte" href="#">Données et confidentialité</a></li>
             </ul>
+        
+
+        
 
             <ul>
                 <h4>Nos hébergements</h4>
-                <li><a class="tailletexte" href="./Liens header/nos hébergements.html">Charte qualité</a></li>
-                <li><a class="tailletexte" href="./Liens header/nos hébergements.html" >Soumettre votre hôtel</a></li>
+                <li><a class="tailletexte" href="#">Charte qualité</a></li>
+                <li><a class="tailletexte" href="#" >Soumettre votre hôtel</a></li>
             </ul>
+        
+
+        
 
             <ul>
                 <h4>Assistance</h4>
-                <li><a class="tailletexte" href="./Liens header/assistance.html" >Centre d'aide</a></li>
-                <li><a class="tailletexte" href="./Liens header/assistance.html" >Nous contacter</a></li>
+                <li><a class="tailletexte" href="#" >Centre d'aide</a></li>
+                <li><a class="tailletexte" href="#" >Nous contacter</a></li>
             </ul>
+        
     </footer>
 </html>
